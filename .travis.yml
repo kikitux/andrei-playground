@@ -1,0 +1,7 @@
+language: generic
+dist: xenial
+sudo: required
+
+# this is our main test
+script:
+- bash test.sh
