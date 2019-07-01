@@ -8,6 +8,7 @@ if [ "${out}" == "hello" ]; then
 	echo PASS
 	exit 0
 else
+        echo expected 'hello' got ${out}
 	echo FAIL
 	exit 1
 fi
